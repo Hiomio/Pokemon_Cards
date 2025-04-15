@@ -10,9 +10,16 @@ const footerStyle = {
 export default function Footer() {
   return (
     <footer style={footerStyle}>
-      <div style={{ backgroundColor: "rgba(0, 0, 0, 0.05)", padding: "1rem" }}>
-        © 2024
-      </div>
+       <div style={{ 
+    backgroundColor: "#e0f7fa", 
+    padding: "1rem", 
+    textAlign: "center" 
+  }}>
+    <div>© Pokémon Inc 2025</div>
+    <div>Contact: info@pokemon.com</div>
+  </div>
+
+
     </footer>
   );
 }
